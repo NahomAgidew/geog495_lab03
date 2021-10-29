@@ -39,3 +39,11 @@ td {
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
+/* When the screen is less than 1024 pixels wide, */
+@media screen and (max-width: 1024px) {
+  /* the side panel disappears */
+  #side-panel {
+    display: none;
+  }
+}
